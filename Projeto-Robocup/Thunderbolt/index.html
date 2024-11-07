@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Thunderbolt</title>
+    <link rel="shortcut icon" href="./assets/images/lightning-charge.svg" type="image/x-icon">
+    <!-- css do BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- meu css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Comfortaa:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    <!-- CNDJ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- menu -->
+    <header class=" cor-principal">
+        <div class="container align-itens-center p-3 m-auto align-items-center">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand fonte-logo fs-1 cor-link" href="#"><i
+                            class="bi bi-lightning-charge me-1 "></i>Thunderbolt</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="bi bi-list cor-link"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav  ms-auto  fonte-titulo ">
+                            <li class="nav-item">
+                                <a class="nav-link fs-4" href="#robo">O Robô</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  fs-4" href="#hardware">Hardware</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link   fs-4" href="#arma">Arma</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-4" href="#videos">Videos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  fs-4" href="#robocup">Robocup e Next</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link  fs-4 " href="#equipe">Equipe</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  fs-4 " href="#contato">Contato</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  fs-4 " href="Empresa.html">Sobre a empresa</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- carrossel -->
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide carousel-dark">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <img src="./assets/images/robo.jpeg" class=" img-fluid d-block w-100 "
+                            alt="Imagem do robo ligado">
+
+                        <div class="carousel-caption d-block">
+                            <p>Robô com a led ligada</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/roboArma (1).jpg" class="img-fluid d-block w-100  "
+                            alt="Imagem da arma do robô">
+                        <div class="carousel-caption d-block ">
+
+                            <p> Arma do robô</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/roboPorDentro.jpeg" class="img-fluid d-block w-100  "
+                            alt="Imagem do robô internamente">
+
+                        <div class="carousel-caption d-block ">
+
+                            <p>Parte interna do robô</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/fotoArena (1).jpg" class=" img-fluid d-block w-100  "
+                            alt="Imagem do Robô na arena ">
+
+                        <div class="carousel-caption d-block">
+
+                            <p> Robô na arena </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/roboDesligado.jpeg " class=" img-fluid d-block w-100 "
+                            alt="Imagem do robô desligado">
+
+                        <div class="carousel-caption d-block">
+
+                            <p>Robô desligado</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- O robô -->
+        <section class=" cor-principal ">
+            <div class=" container row d-flex align-items-center m-auto p-5 " id="robo">
+                <div class="col-md-6  my-md-5 my-0 ">
+                    <h4 class="fs-1  fonte-titulo">O Robô</h4>
+                    <p class="fonte-texto  my-3 fs-5"> Apresentamos o <span class="fonte-logo "> Thunderbolt</span>,
+                        uma incrível criação da equipe
+                        CyberMinds, projetado especificamente para a RoboCup 2023.
+                        Este robô promete elevar o padrão da competição com sua inovação e desempenho excepcionais.
+                    </p>
+                </div>
+                <div class="col-md-6 p-5 my-md-5 my-0">
+                    <img src="./assets/images/roboArma.jpeg" alt="Imagem do robô com a arma ativada"
+                        class="img-fluid rounded-3">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Hardware -->
+        <section class="cor-secundaria">
+            <div class="row container d-flex align-items-center p-5 m-auto " id="hardware">
+                <h4 class="fs-1  fonte-titulo">Hardware</h4>
+                <p class="fonte-texto  fs-5"> Materiais necessários para a construção do robô </p>
+                <!-- accordion -->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header ">
+                            <button class="accordion-button collapsed btn-icon  fonte-titulo fs-4" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Arduíno MEGA-2560
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fonte-texto cor-fonte-escuro fw-bold fs-5">
+                                O Arduino é uma plataforma que possibilita o desenvolvimento de projetos eletronicos
+                                <img src="./assets/images/arduino.jpeg" class="img-fluid" alt="Imagem de um arduino">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed btn-icon  fonte-titulo fs-4" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Jumpers -MM e MF
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fonte-texto cor-fonte-escuro fw-bold fs-5">
+                                São chaves eletricas usadas para ativar, regular ou desativar funções
+                                especificas
+                                <img src="./assets/images/jumpers.jpg" class="img-fluid w-25" alt="Imagem de jumpers">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed btn-icon  fonte-titulo fs-4" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Soquete de pilhas
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fonte-texto cor-fonte-escuro fw-bold fs-5">
+                                O soquete de pilhas é usado para ligação com o robô
+                                <img src="./assets/images/soquete.jpg" class="img-fluid w-25"
+                                    alt="Imagem de um soquete de pilhas">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed btn-icon  fonte-titulo fs-4" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                Motores
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fonte-texto cor-fonte-escuro fw-bold fs-5">
+                                São usados para fazer com que a arma e o robô se movimentem
+                                <img src="./assets/images/motor.jpg" class="img-fluid w-25" alt="Imagem de um  motor">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed btn-icon  fonte-titulo fs-4" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseFive">
+                                Servo Motor
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fonte-texto cor-fonte-escuro fw-bold fs-5">
+                                Não precisam de driver e a versão utilizada no robô gira em 180 graus.
+                                <img src="./assets/images/servo.jpg" class="img-fluid w-25"
+                                    alt="Imagem de um  servo motor">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed btn-icon  fonte-titulo fs-4" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                aria-controls="flush-collapseSix">
+                                Chave de fim de curso
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fonte-texto cor-fonte-escuro fw-bold fs-5">
+                                É um interruptor de comandos elétricos.
+                                <img src="./assets/images/chave.jpg" class=" mx-auto img-fluid   w-25"
+                                    alt="Imagem das chaves de fim de curso">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed btn-icon  fonte-titulo fs-4" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                                aria-controls="flush-collapseSeven">
+                                Shield de Motor
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fonte-texto cor-fonte-escuro fw-bold fs-5">
+                                São usados para efetuar o controle de motores DC, de passo ou servo motores.
+                                <img src="./assets/images/ShieldMotor.jpg" class="img-fluid w-25"
+                                    alt="Imagem do Shield de motor">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed btn-icon  fonte-titulo fs-4" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false"
+                                aria-controls="flush-collapseEight">
+                                Shield Bluetooth.
+                            </button>
+                        </h2>
+                        <div id="flush-collapseEight" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fonte-texto cor-fonte-escuro fw-bold fs-5">
+                                Possibilita transmitir e receber comunicações sem fio, através do Bluetooth
+                                <img src="./assets/images/bluetooth.jpg" class="img-fluid w-25"
+                                    alt="Imagem do Shield bluetooth">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed btn-icon  fonte-titulo fs-4" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false"
+                                aria-controls="flush-collapseNine">
+                                Fita LED
+                            </button>
+                        </h2>
+                        <div id="flush-collapseNine" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fonte-texto cor-fonte-escuro fw-bold fs-5">
+                                Usada para indicar o que está acontecendo com o robô. talvez seja colocado.
+                                <img src="./assets/images/led.png" class="img-fluid w-25" alt="Imagem da fita de Led">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        <!-- Arma-->
+        <section class=" cor-principal ">
+            <div class=" container row d-flex align-items-center m-auto p-5 " id="arma">
+                <h4 class="fs-1  fonte-titulo ">Arma </h4>
+                <div class="col-md-6 m-auto ">
+                    <img src="./assets/images/Arma.jpeg" alt="Imagem da arma" class="img-fluid rounded-3">
+                </div>
+                <div class="col-md-6  m-auto my-3">
+                    <div class="row ">
+                        <div class="col-6 cor-secundaria rounded-3 p-3  ">
+                            <i class="bi bi-tools fs-1  "></i>
+                            <h5 class="fs-3  fonte-titulo  ">Materiais </h5>
+                            <p class="fonte-texto  fs-5">
+                                Arma feita com uma haste de madeira MDF, palitos de sorvete e agulhas
+                            </p>
+                        </div>
+                        <div class="col-6 p-3">
+                            <i class="bi bi-gear fs-1"></i>
+                            <h5 class="fs-3  fonte-titulo">Funcionamento </h5>
+                            <p class="fonte-texto  fs-5">
+                                Ao ser ativada, a arma executará um movimento de rotação de 180 graus para fora do robô
+                            </p>
+                        </div>
+                        <div class="col-6 p-3">
+                            <i class="bi bi-arrows fs-1 "></i>
+                            <h5 class="fs-3  fonte-titulo">Tamanho</h5>
+                            <p class="fonte-texto  fs-5">
+                                A arma possui 24 centimetros de comprimento, tendo uma distância de 22
+                                centímetros para fora da base do robô
+                            </p>
+                        </div>
+                        <div class="col-6  cor-secundaria rounded-3 p-3 ">
+                            <i class="bi bi-stopwatch fs-1"></i>
+                            <h5 class="fs-3  fonte-titulo">Tempo</h5>
+                            <p class="fonte-texto  fs-5">
+                                A arma permanece ativa por 15 segundos
+                                antes de retrair novamente para dentro da base.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Videos  -->
+        <section class="cor-secundaria">
+            <div class=" container row d-flex align-items-center m-auto p-5 " id="videos">
+                <h4 class="fs-1  fonte-titulo ">Vídeos </h4>
+                <div class="col-md-6  my-2  ">
+                    <div class="ratio ratio-4x3">
+                        <iframe src="https://www.youtube.com/embed/UsbkSkNd16A"
+                            title="Construindo a arma do robô - Thunderbolt" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen class="rounded-4"></iframe>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6  my-2 ">
+                    <div class="ratio ratio-4x3">
+                        <iframe src="https://www.youtube.com/embed/Twbx3AUe-XM" title="Robô movimentando  Thunderbolt"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen class="rounded-4"></iframe>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Robocup e Next -->
+        <section class=" cor-principal ">
+            <div class=" container row d-flex align-items-center m-auto" id="robocup">
+                <div class="col-md-6 p-5 my-md-5 my-0 ">
+                    <h4 class="fs-1  fonte-titulo">Robocup e Next </h4>
+                    <p class="fonte-texto  my-3 fs-5"> A Robocup é uma das competições que ocorrem no Next, um
+                        evento promovido pela FIAP, a Faculdade de Informática e Administração Paulista. </p>
+                    <button class="btn btn-outline-light fonte-texto fs-5 px-5 fw-semibold " data-bs-target="#modal-1"
+                        data-bs-toggle="modal"> Mais informações <i class="bi bi-arrow-down ms-1 my-5"></i>
+
+                    </button>
+                </div>
+                <div class="col-md-6 p-5 my-md-5 my-0">
+                    <img src="./assets/images/imagemRobocup.jpg" alt="Imagem de uma batalha da Robocup"
+                        class="img-fluid rounded-3 ">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- equipe -->
+        <section class="cor-secundaria">
+            <div class="row container d-flex  justify-content-center m-auto p-5" id="equipe">
+                <h4 class="fs-1  fonte-titulo p-3">Equipe</h4>
+                <!-- Cards -->
+                <!-- 1º card  -->
+                <div class="col-lg-2 col-md-4 my-2 text-center ">
+                    <div class="card equipe rounded-3">
+                        <img src="./assets/images/alana.png" class="card-img-top"
+                            alt="Imagem de uma integrante da equipe" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo fw-bold fs-4 cor-fonte-escuro">Alana Carolayne Moreira
+                                Siqueira
+                            </h5>
+                            <p class="fonte-texto fs-6 fw-bold cor-fonte-escuro mb-lg-5"> RM: 552261 </p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- 2º card  -->
+                <div class="col-lg-2 col-md-4 my-2 text-center">
+                    <div class="card equipe rounded-3">
+                        <img src="./assets/images/felipe (2).jpg" class="card-img-top"
+                            alt="Imagem de um integrante da equipe" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo fw-bold fs-4 cor-fonte-escuro">Felipe de Souza Ferreira
+                            </h5>
+                            <p class="fonte-texto fs-6 fw-bold cor-fonte-escuro mb-md-5"> RM: 550965 </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3º card  -->
+                <div class="col-lg-2 col-md-4 my-2 text-center">
+                    <div class="card equipe rounded-3">
+                        <img src="./assets/images/rafael.jpeg" class="card-img-top "
+                            alt="Imagem de um integrante da equipe" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo fw-bold cor-fonte-escuro fs-4 "> Rafael Nascimento
+                            </h5>
+                            <p class="fonte-texto fs-6 fw-bold cor-fonte-escuro mb-5">RM:550843 </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4º card  -->
+                <div class="col-lg-2 col-md-4 my-2 text-center ">
+                    <div class="card equipe rounded-3">
+                        <img src="./assets/images/samuel (2).jpg" class="card-img-top"
+                            alt="Imagem de um integrante da equipe" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo cor-fonte-escuro fw-bold fs-4"> Samuel Schaeffer Aguiar
+                            </h5>
+                            <p class="fonte-texto fs-6 fw-bold cor-fonte-escuro mb-md-5">RM:550212 </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5º card  -->
+                <div class="col-lg-2 col-md-4 my-2 text-center">
+                    <div class="card equipe rounded-3">
+                        <img src="./assets/images/yuri.jpeg" class="card-img-top"
+                            alt="Imagem de um integrante da equipe" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo cor-fonte-escuro fw-bold fs-4"> Yuri Peruzzo
+                            </h5>
+                            <p class="fonte-texto fs-6 fw-bold cor-fonte-escuro mb-lg-5">RM:99552 </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- Formulario  -->
+        <section class="cor-principal">
+            <div class="m-auto container p-5" id="contato">
+                <h4 class="fs-1  fonte-titulo  align-items-center p-5 my-3 ">Entre em contato conosco!</h4>
+                <form id="contato" name="contato" method="get" action=""
+                    class="border border-1 rounded-3 p-4 border-white p-3 mx-5">
+                    <div class="row mx-auto">
+
+                        <div class="col-md-4 my-2">
+                            <label for="nome" class="form-label  fonte-texto fs-5 ">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control"
+                                placeholder="Ex: Maria da Silva" minlength="10" maxlength="50" required>
+                        </div>
+
+                        <div class="col-md-4 my-2">
+                            <label for="email" class="form-label  fonte-texto fs-5 ">Email</label>
+                            <input type="email" id="email" name="email" class="form-control"
+                                placeholder="Ex: seuemail@email.com" maxlength="50" required>
+                        </div>
+                        <div class="col-md-4 my-2">
+                            <label for="telefone" class="form-label  fonte-texto fs-5 ">Telefone</label>
+                            <input type="text" id="telefone" name="telefone" class="form-control"
+                                placeholder="Ex: (xx) xxxxx-xxxx" maxlength="15" required>
+                        </div>
+                        <div class="col-md-12 my-2">
+                            <label for="contato" class="form-label  fonte-texto fs-5 ">Preferencia de contato</label>
+                            <select class="form-select mb-3 ">
+                                <option disabled selected>Selecione uma opção</option>
+                                <option value="1">Email</option>
+                                <option value="2">WhatsApp</option>
+                                <option value="3">Ligação</option>
+                            </select>
+                        </div>
+
+                        <div class="col-12 my-1">
+                            <label for="mensagem" class="form-label  fonte-texto fs-5 ">Mensagem</label>
+                            <textarea name="mensagem" id="mensagem" class="form-control"
+                                placeholder="Ex: Digite sua mensagem aqui."></textarea>
+                        </div>
+                        <div class="col-12 my-3">
+                            <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label fonte-texto fs-5" for="flexCheckDefault">
+                                Deseja receber novidades por email?
+                            </label>
+                        </div>
+
+                        <div class="my-3 d-flex justify-content-end">
+                            <button type="submit" class="btn btn-outline-light fonte-texto px-5 fw-semibold fs-5">Enviar
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+
+        <!-- Sobre a empresa -->
+        <section class="cor-secundaria">
+            <div class=" container    m-auto  p-5" id="empresa">
+                <h4 class="fs-1  fonte-titulo my-4">Sobre a empresa </h4>
+                <p class="fonte-texto  my-3 fs-5"> Saiba mais sobre a nossa Startup e como investir nela!</p>
+                <a href="./Empresa.html"
+                    class="btn btn-outline-light fonte-texto m-auto align-items-center justify-content-center fs-5 fw-semibold ">
+                    Saiba mais <i class="bi bi-arrow-down ms-1 my-5"></i>
+
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- rodapé -->
+    <footer>
+        <section class="cor-principal">
+            <div class="m-auto container  p-3 text-center">
+                <p class="my-2 ">
+                    <a href="#"> <i class="bi bi-instagram cor-link fs-2  mx-1"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp  cor-link fs-2 mx-1"></i></a>
+                    <a href="#"><i class="bi bi-youtube  cor-link fs-2 mx-1"></i></a>
+                    <a href="#"><i class="bi bi-envelope-at cor-link fs-2 mx-1"></i></a>
+                </p>
+                <p class="fonte-titulo fs-3  "> Desenvolvido pela equipe CyberMinds</p>
+            </div>
+
+        </section>
+    </footer>
+
+    <!-- modal-->
+    <div class="modal fade" tabindex="-1" id="modal-1" aria-hidden="true" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title cor-fonte-escuro fonte-titulo fs-1">Robocup e Next </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="mb-5">
+                        <h5 class="cor-fonte-escuro fonte-titulo fs-2">Robocup</h5>
+                        <p class="cor-fonte-escuro fonte-texto fs-5 fw-semibold">A Robocup é a competição mais antiga da
+                            FIAP. Alunos dos 1°s anos de Sistemas de Informação constroem
+                            robôs para participar de duelos, onde o principal objetivo é estourar o balão que o
+                            adversário
+                            carrega. Para isso, todas as máquinas possuem armas em seu corpo. Mas a competição também
+                            exige
+                            o
+                            funcionamento pleno do robô: após estourar o balão do oponente, ele deve recolher sua arma,
+                            só
+                            assim
+                            é considerado o vencedor.</p>
+                    </div>
+                    <div>
+                        <h5 class="cor-fonte-escuro fonte-titulo fs-2">Next</h5>
+                        <p class="cor-fonte-escuro fonte-texto fs-5 fw-semibold">O Festival NEXT é um evento de destaque
+                            no calendário acadêmico da FIAP, que oferece uma plataforma única para estudantes e outros
+                            participantes compartilharem suas capacidades, projetos e ideias revolucionárias.
+                            Além das apresentações de projetos, o Festival NEXT também inclui uma série de atividades
+                            paralelas que enriquecem a experiência dos participantes.
+                            Workshops práticos, palestras inspiradoras e painéis de discussão
+                            conduzidos por especialistas em diversas áreas, como tecnologia, inovação, empreendedorismo
+                            e design, fazem parte do programa.
+                            Isso permite que os participantes não apenas exibam suas realizações,
+                            mas também ampliem seu conhecimento e networking, adquirindo insights valiosos das mentes
+                            brilhantes do setor.
+                            A edição deste ano está programada para ocorrer em 28 de outubro.
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-icon" data-bs-dismiss="modal">Fechar </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS do BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
